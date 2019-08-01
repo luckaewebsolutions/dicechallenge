@@ -1,0 +1,57 @@
+body {
+  background-color: #222;
+}
+
+/* typography */
+
+h1,h2 {
+  font-family: 'Bangers', cursive;
+  color: #239f95;
+}
+
+h1{
+  font-weight: bold;
+  font-size: 5rem;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.winnerText{
+  color: #fff !important;
+}
+
+footer {
+  font-family: 'Special Elite', cursive;
+  font-size: .8rem;
+  color: #fff;
+  text-align: center;
+  margin-top:60px;
+}
+
+footer a {
+  color: #239f95;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+/* layout */
+
+.rollBox {
+  margin:10px;
+  text-align: center;
+}
+
+
+.diceBox {
+  display: inline-block;
+  margin:10px;
+  text-align: center;
+}
